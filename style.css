@@ -5,9 +5,23 @@ body {
     margin-bottom: 100px;
     
 }
+.banner{
+    background-image: url(images/dooted-qube.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 7%;
+}
 .carousel-item{
+    background-image: url("images/product-text.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5%;
+    padding-bottom: 55px;
     padding: 10px 20px;
 }
+.carousel-item p {
+    padding: 20px 0;
+  }
 .buy-now-button{
     background-color: #000000;
     color: #fff;
@@ -29,6 +43,9 @@ body {
 .carousel-indicators .active {
   background-image: linear-gradient(to right, #FF9C35, #FFD019);
   width: 40px;
+}
+.gap{
+    margin-bottom: 50px;
 }
 .card{
     text-align: center;
@@ -65,3 +82,6 @@ body {
     margin-top: 10px;
     font-weight: 500;
   }
+ footer{
+     text-align: center;
+ }
